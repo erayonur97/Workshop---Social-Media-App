@@ -1,0 +1,46 @@
+body {
+    background-color: darkslategray;
+    color: beige;
+}
+h2 {
+    margin-top: 2vh;
+}
+h3 {
+    border-bottom: 1px solid beige;
+}
+.navbar {
+    background-color: rgba(0,0,0,0.85) !important;
+    background:no-repeat;
+    background-image: none;
+}
+.form-panel {
+    padding: 1rem;
+    margin-top: 25vh;
+    background-color: rgba(0,0,0,0.85);
+}
+.home-panel>.col {
+    padding: 1rem;
+}
+.item {
+    margin-bottom: 5vh;
+}
+.post-form {
+    padding: 0.5rem;
+    text-align: center;
+}
+.post {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+}
+.post>:last-child {
+    margin-bottom: 0;
+}
+.post-content {
+    text-indent: 0.5rem;
+    padding: 0.25rem 1rem;
+}
+.footer {
+    background-color: black;
+    padding: 3rem;
+}
